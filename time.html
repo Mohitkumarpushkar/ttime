@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="time.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+<body>
+   <div class ="text-center">
+    <h1 style="color:red">Want to know time</h1>
+    <p style="color: red;">Click the button to display the date and time.</p>
+    <button type="button" class="btn btn-dark btn-lg btn" onclick="displayDate()" >⌚Mohit</button>
+    
+   </div>
+
+
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html> 

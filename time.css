@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    margin-top: 15%;
+    background-image:url("vintage-clock.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.btn{
+    padding-bottom: 2rem;
+}
+h1{
+    color: darkblue;
+    font-size: large;
+    text-align: center;
+}
+P{
+    text-align: center;
+    
+}
+.text-center{
+    margin-top: 15%;
+    padding-bottom: 1rem;
+   
+}
